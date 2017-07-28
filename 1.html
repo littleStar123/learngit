@@ -1,0 +1,36 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<script src="http://cdn.static.runoob.com/libs/angular.js/1.4.6/angular.min.js"></script> 
+</head>
+<body>
+<div ng-app="" ng-init="quantity=1;price=5">
+ 
+<h2>价格计算器</h2>
+ 
+数量： <input type="number" ng-model="quantity">
+价格： <input type="number" ng-model="price">
+ 
+<p><b>总价：</b> {{ quantity * price }}</p>
+
+
+<div ng-app="" ng-init="names=[
+{name:'Jani',country:'Norway'},
+{name:'Hege',country:'Sweden'},
+{name:'Kai',country:'Denmark'}]">
+ 
+<p>循环对象：</p>
+<ul>
+  <li ng-repeat="x    in names">
+    {{ x.name + ', ' + x.country }}
+  </li>
+</ul>
+ 
+</div>
+
+
+ 
+</div>
+</body>
+</html>
