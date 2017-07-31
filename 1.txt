@@ -12,7 +12,6 @@
 <p>姓名: <input type="text" ng-model="firstName"></p>
 <p>你输入的为: {{ firstName }}</p>
 <p>new git</p>
-<p>will back</p>
 
 </div>
 
