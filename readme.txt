@@ -6,3 +6,4 @@ Git tracks changes.
 creating a new brash.
 Creating a new branch is quick and simple.
 add merge
+dev branch
